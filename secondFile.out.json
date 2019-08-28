@@ -1,0 +1,45 @@
+{
+  "testing chaining!": {
+    "test1...": {
+      "test2! [empty]": [
+
+      ],
+      "test3 -- bad practice": [
+        [        1, 2, 5, 6]
+      ],
+      "test4 -- better practice": [
+        [1, 2, 5, 6]
+      ],
+      "test5 :)": [
+        true, true, false, false
+      ],
+      "test6 :)": [
+        1.1, 2.2, 4.4, 7.7
+      ],
+      "test7 :)": [
+        "my", "name", "is", "hard"
+      ],
+      "test8  :)": "S",
+      "test9  :)": "i",
+      "test10 :)": "c",
+      "test11 :)": " ",
+      "test12 :)": "'",
+      "test13 :)": "e",
+      "test14 :)": "m",
+      "test15 :)": " ",
+      "test16 :)": "B",
+      "test17 :)": "E",
+      "test18 :)": "A",
+      "test19 :)": "R",
+      "test20 :)": "S",
+      "test21 :)": "!!!!!!!!!!!!!!!!!!"
+    }
+  },
+  "TESTING INITIALIZER LISTS": "Try .print_[...]({val, val, val}) instead of passing in vectors",
+  ".print_array({1, 2, 3})": [
+    1, 2, 3
+  ],
+  ".print_data({1, 2, 3})": [
+    1, 2, 3
+  ]
+}

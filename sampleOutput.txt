@@ -1,0 +1,39 @@
+{
+  "myObject": {
+    "myArray1!!": [
+      "my", "name", "is", "hard"
+    ],
+    "my ints?": [
+      1, 2, 5, 6
+    ],
+    "my truths ;)": [
+      1, 1, 0, 0
+    ]
+  },
+  "New object!!!": {
+    "Many-typed array ohno": [
+      1, 2, 5, 6, 1, 1, 0, 0, "my", "name", "is", "hard", 1.1, 2.2, 4.4, 7.7
+    ]
+  },
+  "Last test tho, I've gotta get back to work": {
+    "name": "ions",
+    "note: ": "We currently don't handle bools correctly, they're supposed to be True or False, oops",
+    "an int?": 2,
+    "a double?": 4000.89,
+    "a bool?": 1,
+    "LOOK:": "oh hey watch me lie to you about the type :o",
+    "a bool (heh, bug will be fixed eventually)?": 1,
+    "Testing 2d arrays": [
+      [      1, 2, 5, 6]
+    ],
+    "IMPORTANT NOTE": [
+      "If you use open_sub_array(), print_data(),", "close_sub_array() instead of using print_sub_array,", "you will get extra tabs that don't look pretty"
+    ],
+    "An example follows [BAD]": [
+      [      [      1, 2, 5, 6], [      1, 2, 5, 6], [      1, 2, 5, 6], [      1, 2, 5, 6], [      1, 2, 5, 6]]
+    ],
+    "This is much better [GOOD]": [
+      [      [1, 2, 5, 6], [1, 2, 5, 6], [1, 2, 5, 6], [1, 2, 5, 6], [1, 2, 5, 6]]
+    ]
+  }
+}

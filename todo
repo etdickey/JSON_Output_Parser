@@ -1,0 +1,12 @@
+initialize check    //check
+initialized testing //check
+chaining tests      //check
+open()              //check
+close()             //check
+negative tab check  //unnecessary
+vector template thing
+test initializer list
+comments
+string literal      //check
+bools               //check
+SPACES_PER_TAB  4

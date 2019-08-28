@@ -1,0 +1,100 @@
+{
+  "myObject": {
+    "myArray1!!": [
+      "my", "name", "is", "hard"
+    ],
+    "my ints?": [
+      1, 2, 5, 6
+    ],
+    "my truths ;)": [
+      true, true, false, false
+    ]
+  },
+  "New object!!!": {
+    "Many-typed array ohno": [
+      1, 2, 5, 6, true, true, false, false, "my", "name", "is", "hard", 1.1, 2.2, 4.4, 7.7
+    ]
+  },
+  "I've gotta get back to work": {
+    "name": "ions",
+    "note: ": "[SEE BELOW] We currently don't handle bools correctly, they're supposed to be true or false, oops",
+    "note: ": "I FIXED IT WOOOOO^^",
+    "an int?": 2,
+    "a double?": 4000.89,
+    "a bool?": true,
+    "LOOK:": "oh hey watch me lie to you about the type :o",
+    "a bool (heh, bug will be fixed eventually [NOW FIXED!!])?": true,
+    "an int?": 1
+  },
+  "Moar testing": {
+    "Testing 2d and 3d arrays": [
+      [      1, 2, 5, 6]
+    ],
+    "IMPORTANT NOTE": [
+      "If you use open_sub_array(), print_data(),", "close_sub_array() instead of using print_sub_array,", "you will get extra tabs that don't look pretty"
+    ],
+    "An example follows [BAD] (3d -- 1x1xDIM)": [
+      [      [      1, 2, 5, 6], [      1, 2, 5, 6], [      1, 2, 5, 6], [      1, 2, 5, 6], [      1, 2, 5, 6]]
+    ],
+    "This is much better [GOOD] (3d -- 1x1xDIM)": [
+      [      [1, 2, 5, 6], [1, 2, 5, 6], [1, 2, 5, 6], [1, 2, 5, 6], [1, 2, 5, 6]]
+    ]
+  },
+  "Testing throwing clause": {
+    "Array trying incorrect [closing object]": [
+      1, 2, 5, 6
+    ],
+    "Success": "Program successfully failed when it was supposed to",
+    "Message:": "Need '}' in JSON_File::close_object ",
+    "Sub array trying incorrect [closing object] and with bad indentation in order to unit test": [
+      [      1.1, 2.2, 4.4, 7.7], [      1.1, 2.2, 4.4, 7.7]
+    ],
+    "Success": "Program successfully failed when it was supposed to:",
+    "Message:": "Need '}' in JSON_File::close_object "
+  },
+  "Success": "Program successfully failed when it was supposed to",
+  "Message:": "Need ']' in JSON_File::close_array ",
+  "Testing close_until [level 1]": {
+    "Level 2": {
+      "Level 3": {
+        "Level 4": {
+          "Man": "This is a lot of levels",
+          "Level 5": {
+            "Level 6": {
+              "Take me back to level": 4,
+              "Level 7: empty array": [
+
+              ]
+            }
+          },
+          "Level 4?": true,
+          "Take me back to level": 3
+        },
+        "Level 3?": true,
+        "Take me back to level": 1
+      }
+    },
+    "Level 1?": true,
+    "Take me back to level": 0
+  },
+  "Level 0?": true,
+  "Take me back to level (invalid)": -1,
+  "Level -1 (should fail))?": false,
+  "Take me back to level (bigger than current stack test)": 4,
+  "Level 4 (should fail)?": false,
+  "Another test! ([this MUST be the last test to test the deconstructor])": {
+    "Idea1": "The idea for this one is to test the deconstructor in putting the brackets in the right place",
+    "Idea2": "because it should be able to finish off any brackets that aren't in place",
+    "When it deconstructs": {
+      "An array of objects (or named arrays) is not allowed": [
+        ["Success", "Program successfully failed when it was supposed to"], ["Message:", "DON'T PUT A NAMED ARRAY IN AN ARRAY (use subarray) JSON_File::open_array:"]
+      ],
+      "Another": [
+        ["Oo there's a string here", "Yeah right here, not that exciting"], ["String arrays :)"]
+      ],
+      "LAST ONE": [
+        ["After this the program should automatically inject the proper closing brackets and braces"]
+      ]
+    }
+  }
+}
